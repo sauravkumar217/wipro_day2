@@ -8,7 +8,7 @@ class InvalidAgeException extends Exception {
 }
 
 // Step 2: Create a class to use the custom exception
-public class CustomException {
+public class CustomException{
 
     // Method to check age
     static void validateAge(int age) throws InvalidAgeException {
